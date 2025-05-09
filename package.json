@@ -1,0 +1,18 @@
+{
+  "name": "api-redirect",
+  "version": "1.0.0",
+  "description": "HTTP server that redirects traffic based on domain names",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "generate-certs": "node scripts/generate-certificates.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+} 
