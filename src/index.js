@@ -17,7 +17,8 @@ const domainMappings = {
     'example.com': 'https://api1.example.com',
     'test.com': 'https://api2.example.com',
     '127.0.0.1': 'https://production-celigo-labs-ent.gateway.apim.integrator.io',
-    'localhost': 'https://production-celigo-labs-ent.gateway.apim.integrator.io'
+    'localhost': 'https://production-celigo-labs-ent.gateway.apim.integrator.io',
+    'api.integratorio.pro': 'https://production-celigo-labs-ent.gateway.apim.integrator.io'
 };
 
 // SSL/TLS configuration
